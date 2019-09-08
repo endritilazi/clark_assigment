@@ -16,6 +16,12 @@ Style/PercentLiteralDelimiters:
   Exclude:
     - 'config/routes.rb'
 
+LineLength:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
 Metrics/LineLength:
   Exclude:
     - 'config/initializers/content_security_policy.rb'
